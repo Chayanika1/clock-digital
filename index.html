@@ -61,7 +61,7 @@
                 }
                 
 
-                var ampm =hr<12?"am":"pm";
+                var ampm =hr>12?"am":"pm";
 
                 var timed = hr+":"+mins+":"+sec+""+ampm;
                 document.getElementById("clock").innerText=timed;
